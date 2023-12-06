@@ -1,0 +1,60 @@
+.git {
+    margin-top: 190px;
+
+    .git-info {
+        @include display-align;
+        justify-content: space-between;
+        .git-desc {
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.2px;
+                color: #fff;
+            }
+
+            p {
+                max-width: 439px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #fff;
+            }
+        }
+
+        .git-mail {
+            @include display-align;
+            input {
+                width: 290px;
+                padding: 15px 10px 15px 20px;
+                outline: none;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border: 1px solid #fff;
+            }
+
+            input::placeholder {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 2;
+                letter-spacing: 0.2px;
+                color: #737373;
+            }
+
+            button {
+                padding:9px 10px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 2;
+                letter-spacing: 0.2px;
+                background-color: #23A6F0;
+                border: none;
+                color: #fff;
+                border: 1px solid #fff;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+    }
+}

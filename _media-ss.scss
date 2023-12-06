@@ -1,0 +1,54 @@
+@media (max-width:1100px){
+    .header{
+        padding-inline: 15px;
+        .navbar{
+            gap: 40px;
+            .nav-link ul{
+                gap: 10px;
+            }
+        }
+    }
+
+    // hero-section
+
+    .hero-section{
+        .hero-img{
+            max-width: 500px;
+            img{
+                width: 100%;
+            }
+        }
+        .hero-btn{
+            .hero-btn1 button{
+                white-space: nowrap;
+            }
+            .hero-btn2 button{
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .strategy{
+        padding-inline: 20px;
+    }
+    .testimonial{
+        padding-inline: 20px;
+    }
+    .faq{
+        padding-inline: 20px;
+    }
+    .git{
+        padding-inline: 20px;
+        gap: 20px;
+        .git-desc{
+            p{
+                width: 350px;
+            }
+        }
+    }
+    .footer{
+        .footer-desc{
+            padding-inline: 20px;
+        }
+    }
+}
